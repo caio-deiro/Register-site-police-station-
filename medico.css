@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #4d4861;
+}
+
+header{
+    font-size: 2rem;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+form p{
+    justify-content: start;
+}
+
+form input{
+    margin: 10px 0px;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem;
+}
+
+form select{
+    margin: 10px 0px;
+}
+
+form .yes-not {
+    margin: 10px 0px; 
+    width: 70px;
+}
+
+form .nota input {
+        margin-left: 15px;
+    }
+    
+form .btn {
+        width: 185px;
+        text-align: center;
+        border: none;
+        border-radius: 6px;
+        padding: 0.5rem;
+        margin-top: 15px;
+        background-color: #FCB07E;
+        cursor: pointer;
+    }
+    
+section form{
+        margin: 0;
+        margin-left: 30px;
+    }
+
+section form button {
+     background-color: #151e3f;
+     border: none;
+     border-radius: 6px;
+    padding: 0.7rem;
+     text-align: center;
+    margin-top: 35px;
+    cursor: pointer;
+        }
+
+section a {
+    text-decoration: none;
+     color: yellow;
+     }
+
+.texto{
+    height: 100px;
+  }
+
+         
